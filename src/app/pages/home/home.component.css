@@ -60,7 +60,7 @@
   text-align: justify;
 }
 
-.content-text button {
+.content-text a {
   position: relative;
   border: none;
   width: 100%;
@@ -71,6 +71,8 @@
   font-size: 1.2rem;
   border-radius: 5px;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
 }
 
 .contain-1 img {

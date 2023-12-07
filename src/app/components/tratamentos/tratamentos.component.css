@@ -40,7 +40,7 @@
   margin-bottom: 8px;
 }
 
-.controle button {
+.controle a {
   width: 250px;
   border: none;
   background-color: #b5749c;
@@ -48,6 +48,6 @@
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
-
-  bottom: 16px;
+  text-decoration: none;
+  text-align: center;
 }
