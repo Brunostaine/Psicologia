@@ -6,3 +6,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+// SCROLLBAR
+
+::-webkit-scrollbar {
+  background: #1d1d1d;
+  width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a58ba7;
+  border-radius: 5px;
+  border: 3px solid #1d1d1d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+/* Cor do "thumb" enquanto arrasta */
+::-webkit-scrollbar-thumb:active {
+  background-color: #b5749c;
+}
+
+::-webkit-scrollbar-scroll {
+  padding: 8px !important;
+  margin: 8px !important;
+}
