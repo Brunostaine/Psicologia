@@ -1,27 +1,33 @@
-# AppPsicologia
+<h1 align="center"> Landing Page Psicologia</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
+![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=EM_DESENVOLVIMENTO&color=blue&style=for-the-badge)
+  
+Image: Em breve...
 
-## Development server
+## Descrição do projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- É um projeto para clinicas de psicologia com o objetivo de ser um vitrine para clinica mostrando os principais serviços que são ofertados. 
 
-## Code scaffolding
+## Funcionalidades do projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- `Single Page` : Mostra sobre a clinica, principais serviços, leva cliente para whatsapp.
 
-## Build
+## 📁 Acesso ao projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Em breve**
 
-## Running unit tests
+## Tecnicas e tecnologias utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[![My Skills](https://skillicons.dev/icons?i=angular,typescript,scss,vscode,)](https://skillicons.dev)
 
-## Running end-to-end tests
+* Angular 17
+* TypeScript
+* SCSS
+- Mobile First
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Autor
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img src="https://user-images.githubusercontent.com/87622645/157755137-8d22a951-d323-4c33-814e-c0351ebefafe.png" width=80><br>
+<sub>Bruno Staine Caires de Oliveira</sub><br>
+https://github.com/Brunostaine 
