@@ -1,8 +1,8 @@
 <h1 align="center"> Landing Page Psicologia</h1>
 
-![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=EM_DESENVOLVIMENTO&color=blue&style=for-the-badge)
+![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=green&style=for-the-badge)
   
-Image: Em breve...
+![Alt text](./src/assets/images/imagem-readme.png)
 
 ## Descrição do projeto
 
