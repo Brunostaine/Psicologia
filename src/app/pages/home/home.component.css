@@ -22,6 +22,7 @@
   background-color: rgba(5, 5, 5, 0.5);
 }
 
+
 .background-home h1 {
   position: relative;
   font-family: "Dancing Script", cursive;
@@ -66,7 +67,7 @@
   max-width: 400px;
   padding: 8px 32px;
   background-color: #a58ba7;
-  color: #FFF;
+  color: #fff;
   font-size: 1.2rem;
   border-radius: 5px;
   cursor: pointer;
@@ -76,11 +77,98 @@
   display: none;
 }
 
-@media (min-width: 1200px){
+/* SOBRE  */
+
+.sobre {
+  height: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.sobre img {
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 0 2px 0px #222;
+  margin-bottom: 8px;
+}
+.content-sobre {
+  width: 100%;
+  max-width: 600px;
+}
+
+.content-sobre h2 {
+  color: #b5749c;
+  font-size: 2.5rem;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 16px;
+}
+
+.sobre-text {
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+/* TRATAMENTOS */
+
+.card {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  gap: 32px;
+  padding-top: 16px;
+}
+
+.tratamentos {
+  padding: 32px;
+  background: linear-gradient(#FFF, #b5749c);
+}
+
+.tratamentos h2 {
+  color: #b5749c;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
   .contain-1 img {
     display: block;
     position: absolute;
     right: 16px;
     bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .sobre {
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .sobre img {
+    width: 100%;
+    max-width: 380px;
+    height: 253px;
+    border-radius: 5px;
+  }
+  .content-sobre {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 16px;
+  }
+
+  .tratamentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

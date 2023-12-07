@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 400px;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background-color: #fff6f6;
+}
+
+.card img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 8px;
+  height: 200px;
+}
+
+.controle {
+  width: 100%;
+  max-width: 300px;
+  padding: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  min-height: 400px;
+}
+
+.controle h2 {
+  margin-bottom: 8px;
+}
+
+.controle p {
+  margin-bottom: 8px;
+}
+
+.controle button {
+  width: 250px;
+  border: none;
+  background-color: #b5749c;
+  padding: 8px 32px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+
+  bottom: 16px;
+}

@@ -22,22 +22,35 @@
     </section>
 
     <section class="sobre">
-        <h2>Olá, muito prazer!</h2>
-        <p>
-            Bem-vindo à jornada de autodescoberta com Michelle Bonozatto, CFP FICTÍCIO. Especializada em Terapia Cognitivo-Comportamental e Abordagens Integrativas, estou aqui para oferecer suporte emocional e promover o bem-estar. Vamos trabalhar juntos para explorar caminhos de crescimento e transformação.
-        </p>
-        <p>
-            Minha missão é facilitar o autoconhecimento e promover o bem-estar emocional, guiando indivíduos em sua jornada de transformação.
-        </p>
-        <!-- TODO IMAGEM -->
-        <!-- TODO CARD - -->
+        <div class="content-sobre">
+            <h2>Olá, muito prazer!</h2>
+            <p class="sobre-text">
+                Bem-vindo à jornada de autodescoberta com Michelle Bonozatto, CFP FICTÍCIO. Especializada em Terapia Cognitivo-Comportamental e Abordagens Integrativas, estou aqui para oferecer suporte emocional e promover o bem-estar. Vamos trabalhar juntos para explorar caminhos de crescimento e transformação.
+            </p>
+            <p class="sobre-text">
+                Minha missão é facilitar o autoconhecimento e promover o bem-estar emocional, guiando indivíduos em sua jornada de transformação.
+            </p>
+            <app-card></app-card>
+        </div>
+
+        <img
+            src="../../../assets/images/video-chamada.jpg"
+            alt="Imagem de video chamada"
+        >
     </section>
 
     <section class="tratamentos">
         <h2>
             Encontre todos os tipos de tratamento que a sua saúde mental precisa
         </h2>
-        <!-- TODO CARDS PARA CADA UM TIPO -->
-        <div></div>
+        <div class="card">
+
+            <app-tratamentos
+                *ngFor="let card of cards"
+                [title]="card.title"
+                [image]="card.image"
+                [description]="card.description"
+            ></app-tratamentos>
+        </div>
     </section>
 </div>
