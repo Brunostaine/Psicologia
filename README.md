@@ -23,7 +23,8 @@ Image: Em breve...
 * Angular 17
 * TypeScript
 * SCSS
-- Mobile First
+* Mobile First
+* Projeto Standalone
 
 
 ## Autor
