@@ -7,7 +7,7 @@
   align-items: center;
   padding: 16px;
   box-shadow: 0 0 10px 1px #222;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 .header-contain {
   display: flex;

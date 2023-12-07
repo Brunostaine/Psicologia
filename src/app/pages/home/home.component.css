@@ -1,7 +1,86 @@
-h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 2rem;
-  font-weight: 500;
+.background-home {
+  background-image: url("../../../assets/images/atendimento.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: calc(100vh - 60px);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.background-home::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 60px);
+  margin-top: 60px;
+  background-color: rgba(5, 5, 5, 0.5);
+}
 
+.background-home h1 {
+  position: relative;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.background-home p {
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.bem-vindo {
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.contain-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-text {
+  width: 100%;
+  max-width: 600px;
+  text-align: justify;
+}
+
+.content-text button {
+  position: relative;
+  border: none;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 32px;
+  background-color: #a58ba7;
+  color: #FFF;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contain-1 img {
+  display: none;
+}
+
+@media (min-width: 1200px){
+  .contain-1 img {
+    display: block;
+    position: absolute;
+    right: 16px;
+    bottom: 0;
+  }
+}
