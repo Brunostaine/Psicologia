@@ -16,7 +16,7 @@ Image: Em breve...
 
 **Em breve**
 
-## Tecnicas e tecnologias utilizadas
+## Técnicas e tecnologias utilizadas
 
 [![My Skills](https://skillicons.dev/icons?i=angular,typescript,scss,vscode,)](https://skillicons.dev)
 
